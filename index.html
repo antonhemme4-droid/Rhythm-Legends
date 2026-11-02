@@ -1,0 +1,14 @@
+<div id="rl-game" tabindex="0">
+  <canvas id="arena" aria-label="Rhythm Legends game arena"></canvas>
+  <div id="topbar">
+    <div class="brand">RHYTHM <span>LEGENDS</span></div>
+    <div id="status"><span id="stageName">NEON STREET</span><span id="levelNum">LV 1</span><span id="score">0 PTS</span><span id="combo">0 COMBO</span></div>
+    <div class="toolbar"><button id="audioToggle" title="Toggle sound">♫</button><button id="pauseBtn" title="Pause">Ⅱ</button><button id="fullBtn">⛶ FULDSKÆRM</button></div>
+  </div>
+  <div id="bars"><div class="meter"><span>HP</span><div class="track"><div id="hpFill"></div></div><b id="hpText">100/100</b></div><div class="meter"><span>XP</span><div class="track"><div id="xpFill"></div></div><b id="xpText">0/100</b></div></div>
+  <div id="bossHud" hidden><div><b id="bossName"></b><span id="bossPhase"></span><span id="bossNext"></span></div><div class="track"><div id="bossFill"></div></div></div>
+  <div id="judge" aria-live="off"></div>
+  <div id="touchPad"><button data-lane="0">D</button><button data-lane="1">F</button><button data-lane="2">J</button><button data-lane="3">K</button></div>
+  <div id="screen" class="visible"><div class="panel" id="panel"></div></div>
+  <div id="footer">D F J K · RAM NODERNE PÅ STREGEN · ESC = PAUSE</div>
+</div>
